@@ -46,7 +46,7 @@ Run the following command in the background (detached mode):
 podman-compose up -d --build
 
 # If using Docker:
-docker compose up -d --build
+docker-compose up -d --build
 ```
 
 ### 2. Ensure 24/7 uptime across server reboots (Rootless Podman only)
