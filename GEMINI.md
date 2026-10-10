@@ -1,6 +1,12 @@
+# GitHub Discord BOT - Agent Guidelines
+
+> **Hoofdrichtlijn:** Dit project volgt strikt de centrale richtlijnen in het hoofd-instructiedocument:
+> 👉 **[Workspace AGENTS.md](file:///g:/My%20Drive/Workbench%20001/AGENTS.md)**
+> Zie tevens het lokale projectdocument: **[AGENTS.md](file:///g:/My%20Drive/Workbench%20001/plugins/githubDiscordBOT/AGENTS.md)**
+> Lees tevens altijd eerst [.agent/memory.md](file:///g:/My%20Drive/Workbench%20001/.agent/memory.md) vóór analyse of modificaties.
 
 <!-- BACKLOG.MD MCP GUIDELINES START -->
-<!-- backlog.md-instructions-version: 1.48.0 -->
+<!-- backlog.md-instructions-version: 1.53.0 -->
 
 <CRITICAL_INSTRUCTION>
 
@@ -28,3 +34,12 @@ You MUST read the overview resource to understand the complete workflow. The inf
 </CRITICAL_INSTRUCTION>
 
 <!-- BACKLOG.MD MCP GUIDELINES END -->
+
+## Project Context & Backlog MCP Koppeling
+
+- **Project:** `githubDiscordBOT` (`plugins/githubDiscordBOT`)
+- **Backlog Directory:** `plugins/githubDiscordBOT/backlog/`
+- **MCP & Tooling Regels:**
+  - Alle `backlog-md` taken en CLI commando's worden uitgevoerd binnen de werkmap `plugins/githubDiscordBOT`.
+  - Vóór elke codewijziging: consulteer en registreer de taak via `backlog-md`.
+  - Alle codeer-, test- en kwaliteitsstandaarden zijn gedefinieerd in [AGENTS.md](file:///g:/My%20Drive/Workbench%20001/AGENTS.md) en [plugins/githubDiscordBOT/AGENTS.md](file:///g:/My%20Drive/Workbench%20001/plugins/githubDiscordBOT/AGENTS.md).
